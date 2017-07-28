@@ -38,7 +38,7 @@ void demo2() {
 
 	int *p = a;
 
-	printf("a:%d\n",a);
+	//printf("a:%d\n",a);
 
 	printArray(a);
 
@@ -56,8 +56,13 @@ void demo2() {
 }
 
 void printArray(int base[])
+
 {
-	for (int i = 0; i < sizeof(base) / sizeof(base[0]); i++)
+	int length=sizeof(base);
+
+	printf("当前数组的长度：%d\n",length);
+
+	for (int i = 0; i < length; i++)
 	{
 		printf("数组第 %d 个值：%d\n",i,base[i]);
 	}
