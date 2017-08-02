@@ -32,7 +32,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NDKDemo.cpp">
+    <ClCompile Include="demo_4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
