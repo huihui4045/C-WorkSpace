@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-﻿  ndk4.cpp
-  NDKDemo.vcxproj -> F:\Documents\C-WorkSpace\NDKDemo\Debug\NDKDemo.exe
-  NDKDemo.vcxproj -> F:\Documents\C-WorkSpace\NDKDemo\Debug\NDKDemo.pdb (Partial PDB)
-=======
-﻿  demo_4.cpp
-  NDKDemo.vcxproj -> E:\C-WorkSpace\NDKDemo\Debug\NDKDemo.exe
-  NDKDemo.vcxproj -> E:\C-WorkSpace\NDKDemo\Debug\NDKDemo.pdb (Full PDB)
->>>>>>> c69dce0a750a2128434a2026e84cc8bd4463d4c6
