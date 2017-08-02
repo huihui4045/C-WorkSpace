@@ -32,7 +32,11 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="ndk4.cpp">
+=======
+    <ClCompile Include="demo_4.cpp">
+>>>>>>> c69dce0a750a2128434a2026e84cc8bd4463d4c6
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
