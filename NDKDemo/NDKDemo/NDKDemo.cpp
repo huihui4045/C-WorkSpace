@@ -5,6 +5,11 @@
 # include "huihui.h"
 #include <stdlib.h>
 
+int plus(int a,int b) {
+
+	return a + b;
+}
+
 
 int main()
 {
@@ -12,13 +17,21 @@ int main()
 	//demo1();
 
 	//数组与指针
-	demo2();
+	//demo2();
+
+	demo3();
 
 	system("pause");
     return 0;
 
 
 }
+//函数指针
+void demo3() {
+
+	int(*calc)(int a,int b);
+}
+
 
 //数组与指针
 void demo2() {
