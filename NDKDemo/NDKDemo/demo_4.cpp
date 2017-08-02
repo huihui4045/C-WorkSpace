@@ -75,12 +75,46 @@ void demo2() {
 	}
 }
 
+//typedef关键字
+typedef int _in;
+typedef char * string;
+
+
+
+typedef struct Tnode {
+	
+	char *name;
+	int id;
+
+}Book;
+
+void demo3() {
+
+	_in a = 100;
+
+	printf("%d \n",a);
+
+	string str = "aaaaaaaaaa";
+
+	printf("%s \n", str);
+
+	Book book;
+
+	book.name = "C语言教程";
+	book.id = 1234;
+
+
+	printf("速度名字：%s  编号：%d \n", book.name,book.id);
+
+}
 
 int main() {
 
 	//demo1();
 
-	demo2();
+	//demo2();
+
+	demo3();
 
 	system("pause");
 
