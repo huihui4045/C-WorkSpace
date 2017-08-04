@@ -28,6 +28,11 @@ void demo2() {
 	printf("zifu:%d\n", ch);
 
 }
+//ЧЄТе
+void  demo3() {
+
+	printf("$______\b\b\b   ,,,,,\n");
+}
 
 int main()
 {
@@ -37,7 +42,9 @@ int main()
 
 	//demo();
 
-	demo2();
+	//demo2();
+
+	demo3();
 
 	system("pause");
     return 0;
