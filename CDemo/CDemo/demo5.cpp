@@ -10,7 +10,7 @@ int main() {
 
 	intsize = sizeof(int);
 
-	printf("n的字节大小：%zd, sizeof n=:%zd   intsize=%zd",n,sizeof n,intsize);
+	printf("n的字节大小：%zd, sizeof n=:%zd   intsize=%zd\n",n,sizeof n,intsize);
 
 	printf("自增运算符：%d\n",(2+ n++)*6);
 
