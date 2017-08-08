@@ -148,6 +148,17 @@ void bEncode(char normal_path [],char encode_path[],char *password) {
 	fclose(encode_fp);
 }
 
+void bDecode(char encode_path[], char decode_path[], char *password) {
+
+	FILE *encode_fp = fopen(encode_path, "r");
+    FILE *decode_fp = fopen(decode_path, "w");
+
+
+
+	fclose(encode_fp);
+	fclose(decode_fp);
+}
+
 //二进制加密
 void demo6() {
 
