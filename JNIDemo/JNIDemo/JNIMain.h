@@ -42,6 +42,38 @@ JNIEXPORT jstring JNICALL Java_JNIMain_accessField
 JNIEXPORT void JNICALL Java_JNIMain_accessStaticField
 (JNIEnv *, jobject);
 
+/*
+* Class:     JNIMain
+* Method:    accessMethod
+* Signature: ()V
+*/
+JNIEXPORT void JNICALL Java_JNIMain_accessMethod
+(JNIEnv *, jobject);
+
+/*
+* Class:     JNIMain
+* Method:    accessStaticMethod
+* Signature: ()V
+*/
+JNIEXPORT void JNICALL Java_JNIMain_accessStaticMethod
+(JNIEnv *, jobject);
+
+/*
+* Class:     JNIMain
+* Method:    acceessConstructor
+* Signature: ()Ljava/util/Date;
+*/
+JNIEXPORT jobject JNICALL Java_JNIMain_acceessConstructor
+(JNIEnv *, jobject);
+
+/*
+* Class:     JNIMain
+* Method:    chineseChars
+* Signature: (Ljava/lang/String;)Ljava/lang/String;
+*/
+JNIEXPORT jstring JNICALL Java_JNIMain_chineseChars
+(JNIEnv *, jobject, jstring);
+
 #ifdef __cplusplus
 }
 #endif
