@@ -24,12 +24,28 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+<<<<<<< HEAD
+=======
+    <ClInclude Include="JNIMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jni.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jni_md.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+>>>>>>> 03335d62b77fa01a3b1925ef34fd94bf5046386b
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="JNIDemo.cpp">
+=======
+    <ClCompile Include="demo.c">
+>>>>>>> 03335d62b77fa01a3b1925ef34fd94bf5046386b
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
